@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		592E21CB80C7C80040E51EA8 /* libPods-CJ_MJRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37872D7B53354AF5ACEDD7C5 /* libPods-CJ_MJRefresh.a */; };
 		F48C85101F0B39060001B228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C850F1F0B39060001B228 /* main.m */; };
 		F48C85131F0B39060001B228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C85121F0B39060001B228 /* AppDelegate.m */; };
 		F48C85161F0B39060001B228 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C85151F0B39060001B228 /* ViewController.m */; };
@@ -15,6 +16,28 @@
 		F48C851E1F0B39060001B228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48C851C1F0B39060001B228 /* LaunchScreen.storyboard */; };
 		F48C85291F0B39070001B228 /* CJ_MJRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C85281F0B39070001B228 /* CJ_MJRefreshTests.m */; };
 		F48C85341F0B39070001B228 /* CJ_MJRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F48C85331F0B39070001B228 /* CJ_MJRefreshUITests.m */; };
+		F48C85561F0B40930001B228 /* 下拉加载_动效00.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85421F0B40930001B228 /* 下拉加载_动效00.png */; };
+		F48C85571F0B40930001B228 /* 下拉加载_动效01.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85431F0B40930001B228 /* 下拉加载_动效01.png */; };
+		F48C85581F0B40930001B228 /* 下拉加载_动效02.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85441F0B40930001B228 /* 下拉加载_动效02.png */; };
+		F48C85591F0B40930001B228 /* 下拉加载_动效03.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85451F0B40930001B228 /* 下拉加载_动效03.png */; };
+		F48C855A1F0B40930001B228 /* 下拉加载_动效04.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85461F0B40930001B228 /* 下拉加载_动效04.png */; };
+		F48C855B1F0B40930001B228 /* 下拉加载_动效05.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85471F0B40930001B228 /* 下拉加载_动效05.png */; };
+		F48C855C1F0B40930001B228 /* 下拉加载_动效06.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85481F0B40930001B228 /* 下拉加载_动效06.png */; };
+		F48C855D1F0B40930001B228 /* 下拉加载_动效07.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85491F0B40930001B228 /* 下拉加载_动效07.png */; };
+		F48C855E1F0B40930001B228 /* 下拉加载_动效08.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C854A1F0B40930001B228 /* 下拉加载_动效08.png */; };
+		F48C855F1F0B40930001B228 /* 下拉加载_动效09.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C854B1F0B40930001B228 /* 下拉加载_动效09.png */; };
+		F48C85601F0B40930001B228 /* 下拉加载_动效10.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C854C1F0B40930001B228 /* 下拉加载_动效10.png */; };
+		F48C85611F0B40930001B228 /* 下拉加载_动效11.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C854D1F0B40930001B228 /* 下拉加载_动效11.png */; };
+		F48C85621F0B40930001B228 /* 下拉加载_动效12.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C854E1F0B40930001B228 /* 下拉加载_动效12.png */; };
+		F48C85631F0B40930001B228 /* 下拉加载_动效13.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C854F1F0B40930001B228 /* 下拉加载_动效13.png */; };
+		F48C85641F0B40930001B228 /* 下拉加载_动效14.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85501F0B40930001B228 /* 下拉加载_动效14.png */; };
+		F48C85651F0B40930001B228 /* 下拉加载_动效15.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85511F0B40930001B228 /* 下拉加载_动效15.png */; };
+		F48C85661F0B40930001B228 /* 下拉加载_动效16.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85521F0B40930001B228 /* 下拉加载_动效16.png */; };
+		F48C85671F0B40930001B228 /* 下拉加载_动效17.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85531F0B40930001B228 /* 下拉加载_动效17.png */; };
+		F48C85681F0B40930001B228 /* 下拉加载_动效18.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85541F0B40930001B228 /* 下拉加载_动效18.png */; };
+		F48C85691F0B40930001B228 /* 下拉加载_动效19.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85551F0B40930001B228 /* 下拉加载_动效19.png */; };
+		F4AA1E261F0CB8140038470E /* MJRefreshGifHeaderRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1E251F0CB8140038470E /* MJRefreshGifHeaderRewrite.m */; };
+		F4AA1E2F1F0CC3530038470E /* UIViewController+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1E2E1F0CC3530038470E /* UIViewController+MJRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE34145BC90A99BEBE4C738 /* Pods-CJ_MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJ_MJRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJ_MJRefresh/Pods-CJ_MJRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		37872D7B53354AF5ACEDD7C5 /* libPods-CJ_MJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJ_MJRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BA547D9DD94CC0F4A098A3 /* Pods-CJ_MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJ_MJRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJ_MJRefresh/Pods-CJ_MJRefresh.release.xcconfig"; sourceTree = "<group>"; };
 		F48C850B1F0B39060001B228 /* CJ_MJRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJ_MJRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48C850F1F0B39060001B228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F48C85111F0B39060001B228 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,31 @@
 		F48C852F1F0B39070001B228 /* CJ_MJRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJ_MJRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48C85331F0B39070001B228 /* CJ_MJRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJ_MJRefreshUITests.m; sourceTree = "<group>"; };
 		F48C85351F0B39070001B228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48C85421F0B40930001B228 /* 下拉加载_动效00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效00.png"; sourceTree = "<group>"; };
+		F48C85431F0B40930001B228 /* 下拉加载_动效01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效01.png"; sourceTree = "<group>"; };
+		F48C85441F0B40930001B228 /* 下拉加载_动效02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效02.png"; sourceTree = "<group>"; };
+		F48C85451F0B40930001B228 /* 下拉加载_动效03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效03.png"; sourceTree = "<group>"; };
+		F48C85461F0B40930001B228 /* 下拉加载_动效04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效04.png"; sourceTree = "<group>"; };
+		F48C85471F0B40930001B228 /* 下拉加载_动效05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效05.png"; sourceTree = "<group>"; };
+		F48C85481F0B40930001B228 /* 下拉加载_动效06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效06.png"; sourceTree = "<group>"; };
+		F48C85491F0B40930001B228 /* 下拉加载_动效07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效07.png"; sourceTree = "<group>"; };
+		F48C854A1F0B40930001B228 /* 下拉加载_动效08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效08.png"; sourceTree = "<group>"; };
+		F48C854B1F0B40930001B228 /* 下拉加载_动效09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效09.png"; sourceTree = "<group>"; };
+		F48C854C1F0B40930001B228 /* 下拉加载_动效10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效10.png"; sourceTree = "<group>"; };
+		F48C854D1F0B40930001B228 /* 下拉加载_动效11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效11.png"; sourceTree = "<group>"; };
+		F48C854E1F0B40930001B228 /* 下拉加载_动效12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效12.png"; sourceTree = "<group>"; };
+		F48C854F1F0B40930001B228 /* 下拉加载_动效13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效13.png"; sourceTree = "<group>"; };
+		F48C85501F0B40930001B228 /* 下拉加载_动效14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效14.png"; sourceTree = "<group>"; };
+		F48C85511F0B40930001B228 /* 下拉加载_动效15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效15.png"; sourceTree = "<group>"; };
+		F48C85521F0B40930001B228 /* 下拉加载_动效16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效16.png"; sourceTree = "<group>"; };
+		F48C85531F0B40930001B228 /* 下拉加载_动效17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效17.png"; sourceTree = "<group>"; };
+		F48C85541F0B40930001B228 /* 下拉加载_动效18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效18.png"; sourceTree = "<group>"; };
+		F48C85551F0B40930001B228 /* 下拉加载_动效19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效19.png"; sourceTree = "<group>"; };
+		F4AA1E241F0CB8140038470E /* MJRefreshGifHeaderRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeaderRewrite.h; sourceTree = "<group>"; };
+		F4AA1E251F0CB8140038470E /* MJRefreshGifHeaderRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeaderRewrite.m; sourceTree = "<group>"; };
+		F4AA1E2C1F0CC3080038470E /* UIViewController_MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController_MJRefresh.h; sourceTree = "<group>"; };
+		F4AA1E2D1F0CC3530038470E /* UIViewController+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJRefresh.h"; sourceTree = "<group>"; };
+		F4AA1E2E1F0CC3530038470E /* UIViewController+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592E21CB80C7C80040E51EA8 /* libPods-CJ_MJRefresh.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +130,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		686BFA3A5AAFBCB78D707E49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37872D7B53354AF5ACEDD7C5 /* libPods-CJ_MJRefresh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A9A1BA7ACC8338E7A8D465 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AE34145BC90A99BEBE4C738 /* Pods-CJ_MJRefresh.debug.xcconfig */,
+				74BA547D9DD94CC0F4A098A3 /* Pods-CJ_MJRefresh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F48C85021F0B39060001B228 = {
 			isa = PBXGroup;
 			children = (
+				F4AA1E201F0CB2500038470E /* Utility */,
+				F48C85411F0B406C0001B228 /* Resource */,
 				F48C850D1F0B39060001B228 /* CJ_MJRefresh */,
 				F48C85271F0B39070001B228 /* CJ_MJRefreshTests */,
 				F48C85321F0B39070001B228 /* CJ_MJRefreshUITests */,
 				F48C850C1F0B39060001B228 /* Products */,
+				85A9A1BA7ACC8338E7A8D465 /* Pods */,
+				686BFA3A5AAFBCB78D707E49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +213,45 @@
 			path = CJ_MJRefreshUITests;
 			sourceTree = "<group>";
 		};
+		F48C85411F0B406C0001B228 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F48C85421F0B40930001B228 /* 下拉加载_动效00.png */,
+				F48C85431F0B40930001B228 /* 下拉加载_动效01.png */,
+				F48C85441F0B40930001B228 /* 下拉加载_动效02.png */,
+				F48C85451F0B40930001B228 /* 下拉加载_动效03.png */,
+				F48C85461F0B40930001B228 /* 下拉加载_动效04.png */,
+				F48C85471F0B40930001B228 /* 下拉加载_动效05.png */,
+				F48C85481F0B40930001B228 /* 下拉加载_动效06.png */,
+				F48C85491F0B40930001B228 /* 下拉加载_动效07.png */,
+				F48C854A1F0B40930001B228 /* 下拉加载_动效08.png */,
+				F48C854B1F0B40930001B228 /* 下拉加载_动效09.png */,
+				F48C854C1F0B40930001B228 /* 下拉加载_动效10.png */,
+				F48C854D1F0B40930001B228 /* 下拉加载_动效11.png */,
+				F48C854E1F0B40930001B228 /* 下拉加载_动效12.png */,
+				F48C854F1F0B40930001B228 /* 下拉加载_动效13.png */,
+				F48C85501F0B40930001B228 /* 下拉加载_动效14.png */,
+				F48C85511F0B40930001B228 /* 下拉加载_动效15.png */,
+				F48C85521F0B40930001B228 /* 下拉加载_动效16.png */,
+				F48C85531F0B40930001B228 /* 下拉加载_动效17.png */,
+				F48C85541F0B40930001B228 /* 下拉加载_动效18.png */,
+				F48C85551F0B40930001B228 /* 下拉加载_动效19.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F4AA1E201F0CB2500038470E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F4AA1E2C1F0CC3080038470E /* UIViewController_MJRefresh.h */,
+				F4AA1E2D1F0CC3530038470E /* UIViewController+MJRefresh.h */,
+				F4AA1E2E1F0CC3530038470E /* UIViewController+MJRefresh.m */,
+				F4AA1E241F0CB8140038470E /* MJRefreshGifHeaderRewrite.h */,
+				F4AA1E251F0CB8140038470E /* MJRefreshGifHeaderRewrite.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F48C85381F0B39070001B228 /* Build configuration list for PBXNativeTarget "CJ_MJRefresh" */;
 			buildPhases = (
+				44B227034C1E9363206C49D0 /* [CP] Check Pods Manifest.lock */,
 				F48C85071F0B39060001B228 /* Sources */,
 				F48C85081F0B39060001B228 /* Frameworks */,
 				F48C85091F0B39060001B228 /* Resources */,
+				80BF475B8EE3BCE72C821C08 /* [CP] Embed Pods Frameworks */,
+				E4AF077EDBFB8FD9EEF3E46D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +361,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48C85561F0B40930001B228 /* 下拉加载_动效00.png in Resources */,
+				F48C85571F0B40930001B228 /* 下拉加载_动效01.png in Resources */,
+				F48C855B1F0B40930001B228 /* 下拉加载_动效05.png in Resources */,
+				F48C85621F0B40930001B228 /* 下拉加载_动效12.png in Resources */,
+				F48C85581F0B40930001B228 /* 下拉加载_动效02.png in Resources */,
+				F48C85671F0B40930001B228 /* 下拉加载_动效17.png in Resources */,
 				F48C851E1F0B39060001B228 /* LaunchScreen.storyboard in Resources */,
+				F48C85601F0B40930001B228 /* 下拉加载_动效10.png in Resources */,
+				F48C855A1F0B40930001B228 /* 下拉加载_动效04.png in Resources */,
+				F48C85691F0B40930001B228 /* 下拉加载_动效19.png in Resources */,
+				F48C855C1F0B40930001B228 /* 下拉加载_动效06.png in Resources */,
+				F48C85591F0B40930001B228 /* 下拉加载_动效03.png in Resources */,
+				F48C85681F0B40930001B228 /* 下拉加载_动效18.png in Resources */,
+				F48C85631F0B40930001B228 /* 下拉加载_动效13.png in Resources */,
+				F48C85661F0B40930001B228 /* 下拉加载_动效16.png in Resources */,
+				F48C855E1F0B40930001B228 /* 下拉加载_动效08.png in Resources */,
+				F48C85651F0B40930001B228 /* 下拉加载_动效15.png in Resources */,
 				F48C851B1F0B39060001B228 /* Assets.xcassets in Resources */,
+				F48C85611F0B40930001B228 /* 下拉加载_动效11.png in Resources */,
+				F48C855F1F0B40930001B228 /* 下拉加载_动效09.png in Resources */,
+				F48C855D1F0B40930001B228 /* 下拉加载_动效07.png in Resources */,
 				F48C85191F0B39060001B228 /* Main.storyboard in Resources */,
+				F48C85641F0B40930001B228 /* 下拉加载_动效14.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +403,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44B227034C1E9363206C49D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80BF475B8EE3BCE72C821C08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJ_MJRefresh/Pods-CJ_MJRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AF077EDBFB8FD9EEF3E46D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJ_MJRefresh/Pods-CJ_MJRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F48C85071F0B39060001B228 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F48C85161F0B39060001B228 /* ViewController.m in Sources */,
+				F4AA1E261F0CB8140038470E /* MJRefreshGifHeaderRewrite.m in Sources */,
 				F48C85131F0B39060001B228 /* AppDelegate.m in Sources */,
+				F4AA1E2F1F0CC3530038470E /* UIViewController+MJRefresh.m in Sources */,
 				F48C85101F0B39060001B228 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +609,7 @@
 		};
 		F48C85391F0B39070001B228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE34145BC90A99BEBE4C738 /* Pods-CJ_MJRefresh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CJ_MJRefresh/Info.plist;
@@ -435,6 +621,7 @@
 		};
 		F48C853A1F0B39070001B228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BA547D9DD94CC0F4A098A3 /* Pods-CJ_MJRefresh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CJ_MJRefresh/Info.plist;
@@ -509,6 +696,7 @@
 				F48C853A1F0B39070001B228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F48C853B1F0B39070001B228 /* Build configuration list for PBXNativeTarget "CJ_MJRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +705,7 @@
 				F48C853D1F0B39070001B228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F48C853E1F0B39070001B228 /* Build configuration list for PBXNativeTarget "CJ_MJRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +714,7 @@
 				F48C85401F0B39070001B228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

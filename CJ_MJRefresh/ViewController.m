@@ -8,7 +8,12 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+//#import <MJRefresh.h>
+//#import "MJRefreshGifHeaderRewrite.h"
+#import "UIViewController+MJRefresh.h"
+
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableview;
 
 @end
 
@@ -16,9 +21,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.tableview.delegate = self;
+    self.tableview.dataSource = self;
+    
+    
+    [self startRefreshWithUITableView:self.tableview];
+    
+    [self performSelector:@selector(performEndRefresh) withObject:nil afterDelay:5.0];
 }
 
+- (void)performEndRefresh{
+    [self endRefreshing];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+    cell.backgroundColor = [UIColor grayColor];
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 5;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
