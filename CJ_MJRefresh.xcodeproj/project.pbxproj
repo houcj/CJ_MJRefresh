@@ -36,8 +36,8 @@
 		F48C85671F0B40930001B228 /* 下拉加载_动效17.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85531F0B40930001B228 /* 下拉加载_动效17.png */; };
 		F48C85681F0B40930001B228 /* 下拉加载_动效18.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85541F0B40930001B228 /* 下拉加载_动效18.png */; };
 		F48C85691F0B40930001B228 /* 下拉加载_动效19.png in Resources */ = {isa = PBXBuildFile; fileRef = F48C85551F0B40930001B228 /* 下拉加载_动效19.png */; };
-		F4AA1E261F0CB8140038470E /* MJRefreshGifHeaderRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1E251F0CB8140038470E /* MJRefreshGifHeaderRewrite.m */; };
-		F4AA1E2F1F0CC3530038470E /* UIViewController+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1E2E1F0CC3530038470E /* UIViewController+MJRefresh.m */; };
+		F4EBAC021F0F2B29006DCBA8 /* MJRefreshGifHeaderRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EBABFE1F0F2B29006DCBA8 /* MJRefreshGifHeaderRewrite.m */; };
+		F4EBAC031F0F2B29006DCBA8 /* UIViewController+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EBAC001F0F2B29006DCBA8 /* UIViewController+MJRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,11 +97,11 @@
 		F48C85531F0B40930001B228 /* 下拉加载_动效17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效17.png"; sourceTree = "<group>"; };
 		F48C85541F0B40930001B228 /* 下拉加载_动效18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效18.png"; sourceTree = "<group>"; };
 		F48C85551F0B40930001B228 /* 下拉加载_动效19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉加载_动效19.png"; sourceTree = "<group>"; };
-		F4AA1E241F0CB8140038470E /* MJRefreshGifHeaderRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeaderRewrite.h; sourceTree = "<group>"; };
-		F4AA1E251F0CB8140038470E /* MJRefreshGifHeaderRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeaderRewrite.m; sourceTree = "<group>"; };
-		F4AA1E2C1F0CC3080038470E /* UIViewController_MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController_MJRefresh.h; sourceTree = "<group>"; };
-		F4AA1E2D1F0CC3530038470E /* UIViewController+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJRefresh.h"; sourceTree = "<group>"; };
-		F4AA1E2E1F0CC3530038470E /* UIViewController+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJRefresh.m"; sourceTree = "<group>"; };
+		F4EBABFD1F0F2B29006DCBA8 /* MJRefreshGifHeaderRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeaderRewrite.h; sourceTree = "<group>"; };
+		F4EBABFE1F0F2B29006DCBA8 /* MJRefreshGifHeaderRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeaderRewrite.m; sourceTree = "<group>"; };
+		F4EBABFF1F0F2B29006DCBA8 /* UIViewController+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJRefresh.h"; sourceTree = "<group>"; };
+		F4EBAC001F0F2B29006DCBA8 /* UIViewController+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJRefresh.m"; sourceTree = "<group>"; };
+		F4EBAC011F0F2B29006DCBA8 /* UIViewController_MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController_MJRefresh.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,13 +243,21 @@
 		F4AA1E201F0CB2500038470E /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				F4AA1E2C1F0CC3080038470E /* UIViewController_MJRefresh.h */,
-				F4AA1E2D1F0CC3530038470E /* UIViewController+MJRefresh.h */,
-				F4AA1E2E1F0CC3530038470E /* UIViewController+MJRefresh.m */,
-				F4AA1E241F0CB8140038470E /* MJRefreshGifHeaderRewrite.h */,
-				F4AA1E251F0CB8140038470E /* MJRefreshGifHeaderRewrite.m */,
+				F4EBABFC1F0F2B29006DCBA8 /* MJRefreshDIY */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		F4EBABFC1F0F2B29006DCBA8 /* MJRefreshDIY */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBABFD1F0F2B29006DCBA8 /* MJRefreshGifHeaderRewrite.h */,
+				F4EBABFE1F0F2B29006DCBA8 /* MJRefreshGifHeaderRewrite.m */,
+				F4EBABFF1F0F2B29006DCBA8 /* UIViewController+MJRefresh.h */,
+				F4EBAC001F0F2B29006DCBA8 /* UIViewController+MJRefresh.m */,
+				F4EBAC011F0F2B29006DCBA8 /* UIViewController_MJRefresh.h */,
+			);
+			path = MJRefreshDIY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,9 +465,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F48C85161F0B39060001B228 /* ViewController.m in Sources */,
-				F4AA1E261F0CB8140038470E /* MJRefreshGifHeaderRewrite.m in Sources */,
+				F4EBAC021F0F2B29006DCBA8 /* MJRefreshGifHeaderRewrite.m in Sources */,
 				F48C85131F0B39060001B228 /* AppDelegate.m in Sources */,
-				F4AA1E2F1F0CC3530038470E /* UIViewController+MJRefresh.m in Sources */,
+				F4EBAC031F0F2B29006DCBA8 /* UIViewController+MJRefresh.m in Sources */,
 				F48C85101F0B39060001B228 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

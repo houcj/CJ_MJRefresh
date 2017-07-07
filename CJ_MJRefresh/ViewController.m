@@ -13,7 +13,9 @@
 #import "UIViewController+MJRefresh.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
+@property (nonatomic, strong) NSArray *arr;
 
 @end
 
@@ -26,9 +28,10 @@
     self.tableview.dataSource = self;
     
     
-    [self startRefreshWithUITableView:self.tableview];
+    [self startRefreshWithUITableView:self.tableview andHeader:^{
+        [self performSelector:@selector(performEndRefresh) withObject:nil afterDelay:5.0];
+    }];
     
-    [self performSelector:@selector(performEndRefresh) withObject:nil afterDelay:5.0];
 }
 
 - (void)performEndRefresh{
@@ -38,7 +41,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
-    cell.backgroundColor = [UIColor grayColor];
+    cell.textLabel.text = [NSString stringWithFormat:@"这是第%zd个Cell",indexPath.row];
     return cell;
 }
 

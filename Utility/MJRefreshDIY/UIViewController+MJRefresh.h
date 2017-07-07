@@ -10,7 +10,8 @@
 
 @interface UIViewController (MJRefresh)
 
-- (void) startRefreshWithUITableView:(UIScrollView *)scrollView;
+
+- (void) startRefreshWithUITableView:(UIScrollView *)scrollView andHeader:(void(^)())header;
 
 - (void) endRefreshing;
 @end

@@ -12,38 +12,42 @@
 
 @implementation UIViewController (MJRefresh)
 
-- (void)startRefreshWithUITableView:(UIScrollView *)scrollView{
-    
+- (void)startRefreshWithUITableView:(UIScrollView *)scrollView andHeader:(void (^)())header{
     if (![scrollView isKindOfClass:[UITableView class]])return;
-   
+    
     self.tableview = (UITableView *)scrollView;
     
     NSArray *idleImgs = [NSArray arrayWithObjects:[UIImage imageNamed:@"下拉加载_动效00"],[UIImage imageNamed:@"下拉加载_动效01"],[UIImage imageNamed:@"下拉加载_动效02"],[UIImage imageNamed:@"下拉加载_动效03"],[UIImage imageNamed:@"下拉加载_动效04"],[UIImage imageNamed:@"下拉加载_动效05"],[UIImage imageNamed:@"下拉加载_动效06"],nil];
     NSArray *pullingImgs = [NSArray arrayWithObjects:[UIImage imageNamed:@"下拉加载_动效05"], nil];
     NSArray *refreshingImgs = [NSArray arrayWithObjects:[UIImage imageNamed:@"下拉加载_动效13"],[UIImage imageNamed:@"下拉加载_动效14"],[UIImage imageNamed:@"下拉加载_动效15"],[UIImage imageNamed:@"下拉加载_动效16"],[UIImage imageNamed:@"下拉加载_动效17"],[UIImage imageNamed:@"下拉加载_动效18"],[UIImage imageNamed:@"下拉加载_动效19"], nil];
     
-    MJRefreshGifHeaderRewrite *header = [MJRefreshGifHeaderRewrite headerWithRefreshingBlock:^{
-        
+    MJRefreshGifHeaderRewrite *mj_header = [MJRefreshGifHeaderRewrite headerWithRefreshingBlock:^{
+        header();
     }];
-
-    [header setImages:idleImgs forState:MJRefreshStateIdle];
-    [header setImages:pullingImgs forState:MJRefreshStatePulling];
-    [header setImages:refreshingImgs forState:MJRefreshStateRefreshing];
-    header.lastUpdatedTimeLabel.hidden = YES;
+    
+    [mj_header setImages:idleImgs forState:MJRefreshStateIdle];
+    [mj_header setImages:pullingImgs forState:MJRefreshStatePulling];
+    [mj_header setImages:refreshingImgs forState:MJRefreshStateRefreshing];
+    mj_header.lastUpdatedTimeLabel.hidden = YES;
     
     
     // 设置文字
-        [header setTitle:@"" forState:MJRefreshStateIdle];
-    [header setTitle:@"" forState:MJRefreshStatePulling];
-    [header setTitle:@"正在刷新" forState:MJRefreshStateRefreshing];
+    [mj_header setTitle:@"" forState:MJRefreshStateIdle];
+    [mj_header setTitle:@"" forState:MJRefreshStatePulling];
+    [mj_header setTitle:@"正在刷新" forState:MJRefreshStateRefreshing];
     
     // 设置字体
-    header.stateLabel.font = [UIFont systemFontOfSize:15];
+    mj_header.stateLabel.font = [UIFont systemFontOfSize:15];
     
     // 设置颜色
-    header.stateLabel.textColor = [UIColor redColor];
+    mj_header.stateLabel.textColor = [UIColor redColor];
     
-    self.tableview.mj_header = header;
+    self.tableview.mj_header = mj_header;
+}
+
+- (void)startRefreshWithUITableView:(UIScrollView *)scrollView{
+    
+    
 }
 
 - (void)endRefreshing{
